@@ -1,1 +1,1 @@
-web: gunicorn newstime.wsgi
+web: gunicorn codestar.wsgi
