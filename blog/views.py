@@ -21,7 +21,7 @@ def post_detail(request, slug):
 
     **Template:**
 
-    :template:`blog/post_detail.html`
+    :template:`post_detail.html`
     """
 
     queryset = Post.objects.filter(status=1)
